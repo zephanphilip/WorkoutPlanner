@@ -1,5 +1,4 @@
 {
-  "proxy": "https://workoutplanner-zl28.onrender.com",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
