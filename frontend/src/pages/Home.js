@@ -14,7 +14,7 @@ function Home() {
     useEffect(()=>
         {
             const fetchWorkouts = async () =>{
-                    const response = await fetch('https://workoutplanner-zl28.onrender.com:4000/api/workouts',
+                    const response = await fetch('/api/workouts',
                      { headers: {
                         'Authorization':`Bearer ${user.token}`
                       }}

@@ -14,7 +14,7 @@ function WorkoutDetails( {workout}) {
       return
     }
 
-    const response = await fetch('https://workoutplanner-zl28.onrender.com:4000/api/workouts/'+workout._id,{
+    const response = await fetch('/api/workouts/'+workout._id,{
       method: 'DELETE',
       headers: {
         'Authorization':`Bearer ${user.token}`

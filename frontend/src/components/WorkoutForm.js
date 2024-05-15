@@ -22,7 +22,7 @@ function WorkoutForm() {
 
     const workout ={title,load,reps}
 
-    const response = await fetch('https://workoutplanner-zl28.onrender.com:4000/api/workouts',{
+    const response = await fetch('/api/workouts',{
         method: 'POST',
         body: JSON.stringify(workout),
         headers: {
