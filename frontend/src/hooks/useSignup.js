@@ -13,7 +13,7 @@ export function useSignup() {
         setIsLoading(true)
         setError(null)
 
-        const response = await fetch('https://workoutplanner-zl28.onrender.com/api/user/signup',
+        const response = await fetch('https://workoutplanner-zl28.onrender.com:4000/api/user/signup',
             {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
